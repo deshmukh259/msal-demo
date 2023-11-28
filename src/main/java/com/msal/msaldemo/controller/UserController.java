@@ -15,7 +15,7 @@ public class UserController {
 
     @Autowired
     private UserService userService;
-    
+
     @GetMapping( "user/{id}")
     public ResponseEntity<Userr> getUser(@PathVariable("id") int id){
         System.out.println("get user "+id);
