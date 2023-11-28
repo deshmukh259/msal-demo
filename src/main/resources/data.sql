@@ -1,0 +1,1 @@
+INSERT INTO users (id, name,address) VALUES (1, 'Abcd','USA');
